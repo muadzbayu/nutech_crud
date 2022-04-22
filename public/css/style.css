@@ -1,0 +1,14 @@
+.jumbotron{
+    padding-top:2rem;
+    background-color: #e2edff;
+}
+
+.a-logout{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+}
+
+a.logout:hover{
+    color:rgb(243, 243, 243);
+}
