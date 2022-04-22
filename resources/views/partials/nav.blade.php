@@ -8,10 +8,10 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/home">Home</a>
+            <a class="nav-link {{ Request::is('home') ? "active" : ""}}" aria-current="page" href="/home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">Product</a>
+            <a class="nav-link {{ Request::is('/') ? "active" : "" }}" href="/">Product</a>
           </li>
         </ul>
         <!-- Logout - posisi kanan
